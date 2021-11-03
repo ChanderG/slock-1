@@ -4,12 +4,12 @@ static const char *group = "nobody";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT] =   "#000000",   /* after initialization */
-	[INPUT] =  "#282c34",   /* during input */
+	[INPUT] =  "#111111",   /* during input */
 	[FAILED] = "#be5046",   /* wrong password */
 };
 
 /* lock screen opacity */
-static const float alpha = 0.5;
+static const float alpha = 0.4;
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
@@ -18,7 +18,7 @@ static const int failonclear = 1;
 static const char * message = "Enter password to unlock";
 
 /* text color */
-static const char * text_color = "#abb2bf";
+static const char * text_color = "#ffffff";
 
 /* text size (must be a valid size) */
-static const char * text_size = "fixed";
+static const char * font_name = "IBM Plex Mono:style=Regular:size=25";
